@@ -1,0 +1,511 @@
+Word,Meaning,Example,Audio palabra,Audio ejemplo
+deploy,desplegar (a producción),We deploy every Friday.,deploy,We deploy every Friday.
+deployment,despliegue,The deployment failed.,deployment,The deployment failed.
+release notes,notas de versión,Read the release notes.,release notes,Read the release notes.
+rollback,revertir (un despliegue),We need a rollback now.,rollback,We need a rollback now.
+roll out,lanzar gradualmente,We'll roll out the update next week.,roll out,We'll roll out the update next week.
+environment variable,variable de entorno,Set the environment variable.,environment variable,Set the environment variable.
+staging,entorno de pruebas (staging),Test it on staging first.,staging,Test it on staging first.
+downtime,tiempo de inactividad,We had two hours of downtime.,downtime,We had two hours of downtime.
+uptime,tiempo en línea,Our uptime is 99.9%.,uptime,Our uptime is 99.9%.
+outage,caída del servicio,There was an outage last night.,outage,There was an outage last night.
+incident report,informe de incidente,Write an incident report.,incident report,Write an incident report.
+root cause,causa raíz,We found the root cause.,root cause,We found the root cause.
+workaround,solución temporal,There's a workaround for now.,workaround,There's a workaround for now.
+hotfix,corrección urgente,We pushed a hotfix.,hotfix,We pushed a hotfix.
+patch up,arreglar rápidamente,Let's patch it up for now.,patch up,Let's patch it up for now.
+debug,depurar,I spent all day debugging.,debug,I spent all day debugging.
+debugger,depurador,Use the debugger.,debugger,Use the debugger.
+breakpoint,punto de interrupción,Set a breakpoint here.,breakpoint,Set a breakpoint here.
+stack trace,traza de la pila,Send me the stack trace.,stack trace,Send me the stack trace.
+log file,archivo de registro,Check the log file.,log file,Check the log file.
+logging,registro (logs),Add more logging.,logging,Add more logging.
+exception handling,manejo de excepciones,Improve the exception handling.,exception handling,Improve the exception handling.
+throw an error,lanzar un error,The function throws an error.,throw an error,The function throws an error.
+crash report,reporte de fallo,I got a crash report.,crash report,I got a crash report.
+edge case,caso límite,Did you test the edge cases?,edge case,Did you test the edge cases?
+unit test,prueba unitaria,Write a unit test.,unit test,Write a unit test.
+integration test,prueba de integración,The integration tests failed.,integration test,The integration tests failed.
+test coverage,cobertura de pruebas,Our test coverage is low.,test coverage,Our test coverage is low.
+mock,simular (en pruebas),Mock the API call.,mock,Mock the API call.
+assertion,aserción,The assertion failed.,assertion,The assertion failed.
+pass a test,pasar una prueba,All tests pass.,pass a test,All tests pass.
+flaky,inestable (prueba),That test is flaky.,flaky,That test is flaky.
+pipeline,pipeline (flujo automatizado),The pipeline is broken.,pipeline,The pipeline is broken.
+continuous integration,integración continua (CI),We use continuous integration.,continuous integration,We use continuous integration.
+compile,compilar,The code doesn't compile.,compile,The code doesn't compile.
+compiler,compilador,The compiler shows a warning.,compiler,The compiler shows a warning.
+runtime,tiempo de ejecución,It's a runtime error.,runtime,It's a runtime error.
+syntax,sintaxis,There's a syntax error.,syntax,There's a syntax error.
+repository,repositorio,Clone the repository.,repository,Clone the repository.
+repo,repo (repositorio),Push it to the repo.,repo,Push it to the repo.
+branch off,crear una rama,Branch off from main.,branch off,Branch off from main.
+merge,fusionar,Merge your branch into main.,merge,Merge your branch into main.
+merge conflict,conflicto de fusión,I have a merge conflict.,merge conflict,I have a merge conflict.
+pull request,pull request (solicitud de cambios),I opened a pull request.,pull request,I opened a pull request.
+clone,clonar,Clone the repo.,clone,Clone the repo.
+fork,bifurcar; fork,Fork the project.,fork,Fork the project.
+rebase,rebase (reorganizar commits),Rebase your branch.,rebase,Rebase your branch.
+version control,control de versiones,Git is a version control system.,version control,Git is a version control system.
+code review,revisión de código,I have a code review today.,code review,I have a code review today.
+reviewer,revisor,Add a reviewer.,reviewer,Add a reviewer.
+approve a PR,aprobar un PR,Can you approve my PR?,approve a PR,Can you approve my PR?
+leave a comment,dejar un comentario,She left a comment on my code.,leave a comment,She left a comment on my code.
+refactor,refactorizar,Let's refactor this function.,refactor,Let's refactor this function.
+technical debt,deuda técnica,We have a lot of technical debt.,technical debt,We have a lot of technical debt.
+legacy code,código heredado,It's legacy code.,legacy code,It's legacy code.
+clean code,código limpio,Write clean code.,clean code,Write clean code.
+readable,legible,Make the code more readable.,readable,Make the code more readable.
+maintainable,mantenible,Maintainable code.,maintainable,Maintainable code.
+scalable,escalable,The system must be scalable.,scalable,The system must be scalable.
+scalability,escalabilidad,Think about scalability.,scalability,Think about scalability.
+performance issue,problema de rendimiento,We have a performance issue.,performance issue,We have a performance issue.
+bottleneck,cuello de botella,The database is the bottleneck.,bottleneck,The database is the bottleneck.
+latency,latencia,High latency.,latency,High latency.
+throughput,rendimiento (capacidad),Improve throughput.,throughput,Improve throughput.
+load balancer,balanceador de carga,Add a load balancer.,load balancer,Add a load balancer.
+cache,caché; guardar en caché,Clear the cache.,cache,Clear the cache.
+caching,almacenamiento en caché,Caching makes it faster.,caching,Caching makes it faster.
+query,consulta,The query is slow.,query,The query is slow.
+index (database),índice (base de datos),Add an index to the table.,index (database),Add an index to the table.
+schema,esquema,Update the database schema.,schema,Update the database schema.
+migration (database),migración (base de datos),Run the migrations.,migration (database),Run the migrations.
+table (database),tabla,Create a new table.,table (database),Create a new table.
+row (database),fila,Insert a new row.,row (database),Insert a new row.
+column (database),columna,Add a column.,column (database),Add a column.
+primary key,clave primaria,Every table needs a primary key.,primary key,Every table needs a primary key.
+foreign key,clave foránea,Add a foreign key.,foreign key,Add a foreign key.
+join (SQL),unión de tablas (JOIN),Use a join.,join (SQL),Use a join.
+backend,backend,I'm a backend developer.,backend,I'm a backend developer.
+frontend,frontend,She works on the frontend.,frontend,She works on the frontend.
+full stack,full stack,I'm a full stack developer.,full stack,I'm a full stack developer.
+endpoint,endpoint (punto de acceso),Create a new endpoint.,endpoint,Create a new endpoint.
+API,API (interfaz de programación),Call the API.,API,Call the API.
+request (HTTP),petición,The request failed.,request (HTTP),The request failed.
+response (HTTP),respuesta,The response is empty.,response (HTTP),The response is empty.
+status code,código de estado,The status code is 404.,status code,The status code is 404.
+payload,carga útil (datos),Check the payload.,payload,Check the payload.
+header,encabezado,Add an auth header.,header,Add an auth header.
+token,token,The token expired.,token,The token expired.
+authentication,autenticación,Add authentication.,authentication,Add authentication.
+authorization,autorización,You don't have authorization.,authorization,You don't have authorization.
+login,inicio de sesión,The login page is broken.,login,The login page is broken.
+log in,iniciar sesión,Log in with your email.,log in,Log in with your email.
+log out,cerrar sesión,Don't forget to log out.,log out,Don't forget to log out.
+sign up,registrarse,Sign up for free.,sign up,Sign up for free.
+password,contraseña,Change your password.,password,Change your password.
+username,nombre de usuario,Enter your username.,username,Enter your username.
+encryption,cifrado,Data encryption.,encryption,Data encryption.
+encrypt,cifrar,Encrypt the data.,encrypt,Encrypt the data.
+vulnerability,vulnerabilidad,We fixed a vulnerability.,vulnerability,We fixed a vulnerability.
+permissions,permisos,Check the file permissions.,permissions,Check the file permissions.
+role-based,basado en roles,Role-based access.,role-based,Role-based access.
+hosting,alojamiento web,Cheap hosting.,hosting,Cheap hosting.
+container,contenedor,Run it in a container.,container,Run it in a container.
+containerize,contenerizar,Containerize the app with Docker.,containerize,Containerize the app with Docker.
+image (Docker),imagen (Docker),Build the Docker image.,image (Docker),Build the Docker image.
+cluster,clúster,A Kubernetes cluster.,cluster,A Kubernetes cluster.
+virtual machine,máquina virtual,Create a virtual machine.,virtual machine,Create a virtual machine.
+infrastructure as code,infraestructura como código,We use infrastructure as code.,infrastructure as code,We use infrastructure as code.
+monitoring,monitoreo,Set up monitoring.,monitoring,Set up monitoring.
+alerting,alertas,Configure alerting.,alerting,Configure alerting.
+dashboard,"tablero, dashboard",Check the dashboard.,dashboard,Check the dashboard.
+metrics,métricas,Look at the metrics.,metrics,Look at the metrics.
+scale up,escalar (aumentar recursos),We need to scale up.,scale up,We need to scale up.
+spin up,levantar (un servidor),Spin up a new server.,spin up,Spin up a new server.
+shut down,apagar,Shut down the server.,shut down,Shut down the server.
+restart,reiniciar,Restart the service.,restart,Restart the service.
+reboot,reiniciar (equipo),Reboot your computer.,reboot,Reboot your computer.
+config,configuración,Check the config file.,config,Check the config file.
+configure,configurar,Configure the server.,configure,Configure the server.
+setup,configuración inicial,The setup is easy.,setup,The setup is easy.
+set up,"configurar, montar",Set up your environment.,set up,Set up your environment.
+dependency,dependencia,Update the dependencies.,dependency,Update the dependencies.
+package manager,gestor de paquetes,npm is a package manager.,package manager,npm is a package manager.
+library (code),librería,Use a library for that.,library (code),Use a library for that.
+open source,código abierto,It's an open source project.,open source,It's an open source project.
+documentation,documentación,Read the documentation.,documentation,Read the documentation.
+docs,documentación (corto),Check the docs.,docs,Check the docs.
+readme,archivo README,Update the README.,readme,Update the README.
+tutorial,tutorial,Follow this tutorial.,tutorial,Follow this tutorial.
+snippet,fragmento de código,Share a code snippet.,snippet,Share a code snippet.
+method (code),método,This method returns a list.,method (code),This method returns a list.
+class (code),clase,Create a new class.,class (code),Create a new class.
+object (code),objeto,Pass an object.,object (code),Pass an object.
+array,"arreglo, array",Loop through the array.,array,Loop through the array.
+list (code),lista,Return a list.,list (code),Return a list.
+dictionary,diccionario,A Python dictionary.,dictionary,A Python dictionary.
+string (code),cadena de texto,Convert it to a string.,string (code),Convert it to a string.
+integer,entero,An integer value.,integer,An integer value.
+boolean,booleano,It returns a boolean.,boolean,It returns a boolean.
+null,nulo,The value is null.,null,The value is null.
+argument (code),argumento,Pass two arguments.,argument (code),Pass two arguments.
+parameter,parámetro,The function takes one parameter.,parameter,The function takes one parameter.
+callback,callback (función de retorno),Pass a callback.,callback,Pass a callback.
+async,asíncrono,Use async functions.,async,Use async functions.
+promise (code),promesa,The promise resolves.,promise (code),The promise resolves.
+await,esperar (await),Await the response.,await,Await the response.
+event listener,escuchador de eventos,Add an event listener.,event listener,Add an event listener.
+state (React),estado,Update the state.,state (React),Update the state.
+props,props (propiedades),Pass props to the component.,props,Pass props to the component.
+hook (React),hook,Use the useEffect hook.,hook (React),Use the useEffect hook.
+render,renderizar,The component renders twice.,render,The component renders twice.
+responsive,adaptable (responsive),The site is responsive.,responsive,The site is responsive.
+layout,"diseño, disposición",Change the layout.,layout,Change the layout.
+UI,interfaz de usuario,The UI looks great.,UI,The UI looks great.
+UX,experiencia de usuario,Focus on UX.,UX,Focus on UX.
+mockup,maqueta,Here's the mockup.,mockup,Here's the mockup.
+wireframe,wireframe (boceto),Draw a wireframe.,wireframe,Draw a wireframe.
+prototype,prototipo,We built a prototype.,prototype,We built a prototype.
+MVP,producto mínimo viable,Let's launch the MVP.,MVP,Let's launch the MVP.
+feature request,solicitud de funcionalidad,A new feature request.,feature request,A new feature request.
+user story,historia de usuario,Write a user story.,user story,Write a user story.
+acceptance criteria,criterios de aceptación,Check the acceptance criteria.,acceptance criteria,Check the acceptance criteria.
+backlog,backlog (pendientes),Add it to the backlog.,backlog,Add it to the backlog.
+sprint,sprint (ciclo de trabajo),This sprint ends on Friday.,sprint,This sprint ends on Friday.
+sprint planning,planificación del sprint,Sprint planning is on Monday.,sprint planning,Sprint planning is on Monday.
+stand-up,reunión diaria,We have a stand-up at 9.,stand-up,We have a stand-up at 9.
+retrospective,retrospectiva,"In the retrospective, we discussed problems.",retrospective,"In the retrospective, we discussed problems."
+story points,puntos de historia,It's five story points.,story points,It's five story points.
+blocker,"bloqueo, impedimento",Do you have any blockers?,blocker,Do you have any blockers?
+blocked,bloqueado,I'm blocked by the backend team.,blocked,I'm blocked by the backend team.
+on track,"a tiempo, según lo planeado",We're on track.,on track,We're on track.
+behind schedule,atrasado,We're behind schedule.,behind schedule,We're behind schedule.
+ahead of schedule,adelantado,We finished ahead of schedule.,ahead of schedule,We finished ahead of schedule.
+milestone,hito,We reached a milestone.,milestone,We reached a milestone.
+roadmap,hoja de ruta,Check the product roadmap.,roadmap,Check the product roadmap.
+prioritize,priorizar,Prioritize the tasks.,prioritize,Prioritize the tasks.
+stakeholder,parte interesada,Talk to the stakeholders.,stakeholder,Talk to the stakeholders.
+spec,especificación,Read the spec.,spec,Read the spec.
+scope creep,aumento descontrolado del alcance,Avoid scope creep.,scope creep,Avoid scope creep.
+trade-off,"compensación, sacrificio",Every decision has a trade-off.,trade-off,Every decision has a trade-off.
+workflow,flujo de trabajo,Improve our workflow.,workflow,Improve our workflow.
+best practice,buena práctica,Follow best practices.,best practice,Follow best practices.
+standard practice,práctica habitual,It's standard practice.,standard practice,It's standard practice.
+handover,traspaso (de trabajo),Do a handover before you leave.,handover,Do a handover before you leave.
+hand off,pasar (una tarea),I'll hand it off to Ana.,hand off,I'll hand it off to Ana.
+take over,hacerse cargo,Can you take over this task?,take over,Can you take over this task?
+pick up,retomar; tomar (una tarea),I'll pick up this ticket.,pick up,I'll pick up this ticket.
+follow up,hacer seguimiento,I'll follow up tomorrow.,follow up,I'll follow up tomorrow.
+follow-up,seguimiento,Send a follow-up email.,follow-up,Send a follow-up email.
+catch up,ponerse al día,Let's catch up after lunch.,catch up,Let's catch up after lunch.
+walk through,explicar paso a paso,Can you walk me through the code?,walk through,Can you walk me through the code?
+look into,"investigar, revisar",I'll look into it.,look into,I'll look into it.
+figure out,"averiguar, resolver",I need to figure out the bug.,figure out,I need to figure out the bug.
+work on,trabajar en,I'm working on the login page.,work on,I'm working on the login page.
+set up a meeting,organizar una reunión,Let's set up a meeting.,set up a meeting,Let's set up a meeting.
+reach out,contactar,Reach out if you need help.,reach out,Reach out if you need help.
+get back to,responder más tarde,I'll get back to you.,get back to,I'll get back to you.
+loop in,incluir (en una conversación),Loop me in on the email.,loop in,Loop me in on the email.
+sync up,"ponerse de acuerdo, sincronizar",Let's sync up tomorrow.,sync up,Let's sync up tomorrow.
+touch base,hablar brevemente,Let's touch base on Friday.,touch base,Let's touch base on Friday.
+wrap up,"terminar, cerrar",Let's wrap up the meeting.,wrap up,Let's wrap up the meeting.
+come up with,ocurrírsele (una idea),He came up with a solution.,come up with,He came up with a solution.
+run into,encontrarse con (problema),I ran into a problem.,run into,I ran into a problem.
+go over,repasar,Let's go over the plan.,go over,Let's go over the plan.
+point out,señalar,She pointed out a bug.,point out,She pointed out a bug.
+carry out,llevar a cabo,Carry out the tests.,carry out,Carry out the tests.
+put off,posponer,Don't put off the meeting.,put off,Don't put off the meeting.
+call off,cancelar,They called off the meeting.,call off,They called off the meeting.
+deal with,encargarse de,I'll deal with it.,deal with,I'll deal with it.
+keep up with,mantenerse al día,Keep up with new technologies.,keep up with,Keep up with new technologies.
+set aside,reservar (tiempo),Set aside time to study.,set aside,Set aside time to study.
+bring up,mencionar (un tema),He brought up a good point.,bring up,He brought up a good point.
+fill in,reemplazar; completar,Can you fill in for me?,fill in,Can you fill in for me?
+fill out,llenar (formulario),Fill out the form.,fill out,Fill out the form.
+sign off,aprobar; despedirse,The manager signed off on it.,sign off,The manager signed off on it.
+step down,renunciar (a un cargo),The CEO stepped down.,step down,The CEO stepped down.
+lay off,despedir (por recortes),They laid off 50 people.,lay off,They laid off 50 people.
+burn out,agotarse (laboralmente),Take breaks so you don't burn out.,burn out,Take breaks so you don't burn out.
+burnout,agotamiento laboral,Burnout is common in tech.,burnout,Burnout is common in tech.
+work-life balance,equilibrio vida-trabajo,I want a better work-life balance.,work-life balance,I want a better work-life balance.
+remote work,trabajo remoto,I love remote work.,remote work,I love remote work.
+work from home,trabajar desde casa,I work from home on Fridays.,work from home,I work from home on Fridays.
+hybrid work,trabajo híbrido,My company has hybrid work.,hybrid work,My company has hybrid work.
+full-time,tiempo completo,A full-time job.,full-time,A full-time job.
+part-time,medio tiempo,A part-time job.,part-time,A part-time job.
+freelance,independiente,I work freelance.,freelance,I work freelance.
+freelancer,trabajador independiente,He's a freelancer.,freelancer,He's a freelancer.
+contractor,contratista,We hired a contractor.,contractor,We hired a contractor.
+recruiter,reclutador,A recruiter contacted me.,recruiter,A recruiter contacted me.
+hiring manager,gerente de contratación,I talked to the hiring manager.,hiring manager,I talked to the hiring manager.
+job offer,oferta de trabajo,I got a job offer!,job offer,I got a job offer!
+job posting,publicación de empleo,I saw the job posting.,job posting,I saw the job posting.
+cover letter,carta de presentación,Write a cover letter.,cover letter,Write a cover letter.
+CV,hoja de vida (CV),Update your CV.,CV,Update your CV.
+LinkedIn profile,perfil de LinkedIn,Improve your LinkedIn profile.,LinkedIn profile,Improve your LinkedIn profile.
+technical interview,entrevista técnica,I have a technical interview.,technical interview,I have a technical interview.
+coding challenge,reto de programación,Solve the coding challenge.,coding challenge,Solve the coding challenge.
+take-home assignment,prueba para hacer en casa,They sent me a take-home assignment.,take-home assignment,They sent me a take-home assignment.
+whiteboard,pizarra,Draw it on the whiteboard.,whiteboard,Draw it on the whiteboard.
+salary expectations,expectativas salariales,What are your salary expectations?,salary expectations,What are your salary expectations?
+benefits package,paquete de beneficios,The benefits package is good.,benefits package,The benefits package is good.
+onboarding,inducción (nuevo empleado),Onboarding takes two weeks.,onboarding,Onboarding takes two weeks.
+probation period,periodo de prueba,The probation period is three months.,probation period,The probation period is three months.
+performance review,evaluación de desempeño,My performance review is next week.,performance review,My performance review is next week.
+raise (salary),aumento de sueldo,I asked for a raise.,raise (salary),I asked for a raise.
+career path,trayectoria profesional,Think about your career path.,career path,Think about your career path.
+mentor,mentor,My mentor helps me a lot.,mentor,My mentor helps me a lot.
+mentorship,mentoría,A mentorship program.,mentorship,A mentorship program.
+teammate,compañero de equipo,My teammates are great.,teammate,My teammates are great.
+coworker,compañero de trabajo,My coworker is from Brazil.,coworker,My coworker is from Brazil.
+team lead,líder de equipo,Ask the team lead.,team lead,Ask the team lead.
+tech lead,líder técnico,The tech lead approved it.,tech lead,The tech lead approved it.
+product manager,gerente de producto,The product manager defines priorities.,product manager,The product manager defines priorities.
+project manager,gerente de proyecto,Talk to the project manager.,project manager,Talk to the project manager.
+scrum master,scrum master,The scrum master runs the stand-up.,scrum master,The scrum master runs the stand-up.
+QA,control de calidad (QA),QA found three bugs.,QA,QA found three bugs.
+tester,"probador, tester",The tester reported a bug.,tester,The tester reported a bug.
+DevOps,DevOps,He works in DevOps.,DevOps,He works in DevOps.
+data scientist,científico de datos,She's a data scientist.,data scientist,She's a data scientist.
+CTO,director de tecnología,The CTO joined the call.,CTO,The CTO joined the call.
+CEO,director ejecutivo,The CEO sent an email.,CEO,The CEO sent an email.
+startup,"startup, empresa emergente",I work at a startup.,startup,I work at a startup.
+headcount,número de empleados,We're increasing headcount.,headcount,We're increasing headcount.
+department head,jefe de departamento,Talk to the department head.,department head,Talk to the department head.
+org chart,organigrama,Check the org chart.,org chart,Check the org chart.
+one-on-one,reunión individual,I have a one-on-one with my boss.,one-on-one,I have a one-on-one with my boss.
+all-hands meeting,reunión general,There's an all-hands meeting today.,all-hands meeting,There's an all-hands meeting today.
+kickoff meeting,reunión de inicio,The project kickoff meeting.,kickoff meeting,The project kickoff meeting.
+call (meeting),llamada,I'm on a call.,call (meeting),I'm on a call.
+video call,videollamada,Let's do a video call.,video call,Let's do a video call.
+mute,silenciar,You're on mute.,mute,You're on mute.
+unmute,activar el micrófono,Can you unmute?,unmute,Can you unmute?
+share your screen,compartir pantalla,Can you share your screen?,share your screen,Can you share your screen?
+agenda item,punto de la agenda,Next agenda item.,agenda item,Next agenda item.
+action item,tarea pendiente (de reunión),What are the action items?,action item,What are the action items?
+minutes (meeting),acta de reunión,Who's taking the minutes?,minutes (meeting),Who's taking the minutes?
+takeaway,conclusión principal,What's the key takeaway?,takeaway,What's the key takeaway?
+heads-up,aviso previo,Thanks for the heads-up.,heads-up,Thanks for the heads-up.
+FYI,para tu información,"FYI, the meeting moved to 3.",FYI,"FYI, the meeting moved to 3."
+ASAP,lo antes posible,I need it ASAP.,ASAP,I need it ASAP.
+EOD,al final del día,Send it by EOD.,EOD,Send it by EOD.
+ETA,hora estimada de llegada/entrega,What's the ETA?,ETA,What's the ETA?
+out of office,fuera de la oficina,I'm out of office tomorrow.,out of office,I'm out of office tomorrow.
+day off,día libre,I'm taking a day off.,day off,I'm taking a day off.
+sick leave,incapacidad,He's on sick leave.,sick leave,He's on sick leave.
+paid time off,vacaciones pagadas,I have 15 days of paid time off.,paid time off,I have 15 days of paid time off.
+time zone,zona horaria,We're in different time zones.,time zone,We're in different time zones.
+calendar invite,invitación de calendario,I sent you a calendar invite.,calendar invite,I sent you a calendar invite.
+reschedule,reprogramar,Can we reschedule?,reschedule,Can we reschedule?
+postpone,posponer,Let's postpone the meeting.,postpone,Let's postpone the meeting.
+attendee,asistente,There are ten attendees.,attendee,There are ten attendees.
+cc,copiar (en un correo),Cc your manager.,cc,Cc your manager.
+reply all,responder a todos,Don't reply all.,reply all,Don't reply all.
+attachment,archivo adjunto,See the attachment.,attachment,See the attachment.
+inbox,bandeja de entrada,My inbox is full.,inbox,My inbox is full.
+thread (email),hilo (de correos),Read the whole thread.,thread (email),Read the whole thread.
+kind regards,saludos cordiales,"Kind regards, Marlon.",kind regards,"Kind regards, Marlon."
+I look forward to,quedo atento a,I look forward to your reply.,I look forward to,I look forward to your reply.
+as per,según,As per our conversation...,as per,As per our conversation...
+let me know,avísame,Let me know if you have questions.,let me know,Let me know if you have questions.
+feel free to,no dudes en,Feel free to ask.,feel free to,Feel free to ask.
+on the same page,"en sintonía, de acuerdo",Are we on the same page?,on the same page,Are we on the same page?
+big picture,panorama general,Think about the big picture.,big picture,Think about the big picture.
+bandwidth,capacidad (tiempo disponible),I don't have the bandwidth this week.,bandwidth,I don't have the bandwidth this week.
+deliverable,entregable,What are the deliverables?,deliverable,What are the deliverables?
+KPI,indicador clave (KPI),Track your KPIs.,KPI,Track your KPIs.
+OKR,objetivos y resultados clave,Our OKRs for this quarter.,OKR,Our OKRs for this quarter.
+quarter (business),trimestre,Our goals for this quarter.,quarter (business),Our goals for this quarter.
+quarterly,trimestral,A quarterly report.,quarterly,A quarterly report.
+forecast,pronóstico,The sales forecast.,forecast,The sales forecast.
+growth rate,tasa de crecimiento,A high growth rate.,growth rate,A high growth rate.
+market share,cuota de mercado,We increased our market share.,market share,We increased our market share.
+revenue stream,fuente de ingresos,A new revenue stream.,revenue stream,A new revenue stream.
+pricing,precios,Our pricing is simple.,pricing,Our pricing is simple.
+subscription,suscripción,A monthly subscription.,subscription,A monthly subscription.
+churn,abandono de clientes,We need to reduce churn.,churn,We need to reduce churn.
+retention,retención,User retention is key.,retention,User retention is key.
+conversion rate,tasa de conversión,The conversion rate improved.,conversion rate,The conversion rate improved.
+lead (sales),cliente potencial,We got 50 new leads.,lead (sales),We got 50 new leads.
+pitch deck,presentación para inversionistas,Prepare the pitch deck.,pitch deck,Prepare the pitch deck.
+invoice,factura,Send me the invoice.,invoice,Send me the invoice.
+reimbursement,reembolso,Ask for reimbursement.,reimbursement,Ask for reimbursement.
+expense report,informe de gastos,Submit your expense report.,expense report,Submit your expense report.
+payroll,nómina,Payroll is on the 30th.,payroll,Payroll is on the 30th.
+procurement,"compras, adquisiciones",Talk to procurement.,procurement,Talk to procurement.
+vendor,proveedor,We changed vendors.,vendor,We changed vendors.
+outsource,subcontratar,They outsource development.,outsource,They outsource development.
+in-house,"interno, propio",An in-house team.,in-house,An in-house team.
+policy (company),política de la empresa,Read the company policy.,policy (company),Read the company policy.
+NDA,acuerdo de confidencialidad,Sign the NDA.,NDA,Sign the NDA.
+confidential,confidencial,This is confidential.,confidential,This is confidential.
+SLA,acuerdo de nivel de servicio,We have a 99% SLA.,SLA,We have a 99% SLA.
+use case,caso de uso,What's the use case?,use case,What's the use case?
+proof of concept,prueba de concepto,We built a proof of concept.,proof of concept,We built a proof of concept.
+benchmark,referencia; prueba de rendimiento,Run a benchmark.,benchmark,Run a benchmark.
+optimize,optimizar,Optimize the query.,optimize,Optimize the query.
+optimization,optimización,Performance optimization.,optimization,Performance optimization.
+automate,automatizar,Automate the tests.,automate,Automate the tests.
+automation,automatización,Automation saves time.,automation,Automation saves time.
+cron job,tarea programada,Set up a cron job.,cron job,Set up a cron job.
+scheduler,programador de tareas,The scheduler runs at midnight.,scheduler,The scheduler runs at midnight.
+queue,cola,Add it to the queue.,queue,Add it to the queue.
+worker (process),proceso trabajador,Start more workers.,worker (process),Start more workers.
+microservice,microservicio,We use microservices.,microservice,We use microservices.
+monolith,monolito,We're moving away from the monolith.,monolith,We're moving away from the monolith.
+design pattern,patrón de diseño,Use a design pattern.,design pattern,Use a design pattern.
+abstraction,abstracción,Too much abstraction.,abstraction,Too much abstraction.
+module,módulo,Import the module.,module,Import the module.
+import,importar,Import the library.,import,Import the library.
+file format,formato de archivo,What file format?,file format,What file format?
+upload,subir (archivo),Upload the file.,upload,Upload the file.
+storage bucket,bucket de almacenamiento,Save it in the storage bucket.,storage bucket,Save it in the storage bucket.
+data pipeline,pipeline de datos,Build a data pipeline.,data pipeline,Build a data pipeline.
+dataset,conjunto de datos,A large dataset.,dataset,A large dataset.
+data analysis,análisis de datos,Data analysis skills.,data analysis,Data analysis skills.
+machine learning,aprendizaje automático,She works in machine learning.,machine learning,She works in machine learning.
+artificial intelligence,inteligencia artificial,Artificial intelligence is changing jobs.,artificial intelligence,Artificial intelligence is changing jobs.
+AI model,modelo de IA,Train an AI model.,AI model,Train an AI model.
+prompt,instrucción (para IA); indicación,Write a clear prompt.,prompt,Write a clear prompt.
+chatbot,chatbot,We built a chatbot.,chatbot,We built a chatbot.
+algorithm,algoritmo,A sorting algorithm.,algorithm,A sorting algorithm.
+data structure,estructura de datos,Learn data structures.,data structure,Learn data structures.
+recursion,recursión,Use recursion.,recursion,Use recursion.
+iterate,iterar,Iterate over the list.,iterate,Iterate over the list.
+iteration,iteración,The first iteration.,iteration,The first iteration.
+increment,incrementar,Increment the counter.,increment,Increment the counter.
+boilerplate,código repetitivo base,Too much boilerplate.,boilerplate,Too much boilerplate.
+template,plantilla,Use this template.,template,Use this template.
+placeholder,marcador de posición,Replace the placeholder text.,placeholder,Replace the placeholder text.
+hardcode,escribir valores fijos en el código,Don't hardcode the password.,hardcode,Don't hardcode the password.
+deprecated,obsoleto,This method is deprecated.,deprecated,This method is deprecated.
+backward compatible,compatible con versiones anteriores,The update is backward compatible.,backward compatible,The update is backward compatible.
+breaking change,cambio incompatible,It's a breaking change.,breaking change,It's a breaking change.
+changelog,registro de cambios,Read the changelog.,changelog,Read the changelog.
+open a ticket,abrir un ticket,Open a ticket for that.,open a ticket,Open a ticket for that.
+bug report,reporte de error,Write a bug report.,bug report,Write a bug report.
+reproduce,reproducir (un error),I can't reproduce the bug.,reproduce,I can't reproduce the bug.
+steps to reproduce,pasos para reproducir,Add steps to reproduce.,steps to reproduce,Add steps to reproduce.
+expected behavior,comportamiento esperado,What's the expected behavior?,expected behavior,What's the expected behavior?
+it works on my machine,en mi computador sí funciona,"""It works on my machine!""",it works on my machine,"""It works on my machine!"""
+troubleshoot,solucionar problemas,Troubleshoot the connection.,troubleshoot,Troubleshoot the connection.
+fix a bug,arreglar un error,I fixed the bug.,fix a bug,I fixed the bug.
+lag,"retraso, lag",There's lag in the game.,lag,There's lag in the game.
+glitch,falla menor,A small glitch.,glitch,A small glitch.
+shortcut,atajo,Use keyboard shortcuts.,shortcut,Use keyboard shortcuts.
+command line,línea de comandos,Use the command line.,command line,Use the command line.
+IDE,entorno de desarrollo (IDE),VS Code is my IDE.,IDE,VS Code is my IDE.
+plugin,complemento,Add a plugin.,plugin,Add a plugin.
+browser,navegador,Which browser do you use?,browser,Which browser do you use?
+tab,pestaña,Open a new tab.,tab,Open a new tab.
+URL,"URL, dirección web",Copy the URL.,URL,Copy the URL.
+domain name,nombre de dominio,Buy a domain name.,domain name,Buy a domain name.
+web app,aplicación web,We're building a web app.,web app,We're building a web app.
+mobile app,aplicación móvil,Download the mobile app.,mobile app,Download the mobile app.
+notification,notificación,Turn off notifications.,notification,Turn off notifications.
+settings,configuración,Go to settings.,settings,Go to settings.
+dropdown,menú desplegable,Choose from the dropdown.,dropdown,Choose from the dropdown.
+checkbox,casilla de verificación,Tick the checkbox.,checkbox,Tick the checkbox.
+form validation,validación de formularios,Add form validation.,form validation,Add form validation.
+input field,campo de entrada,Fill in the input field.,input field,Fill in the input field.
+pop-up,ventana emergente,Close the pop-up.,pop-up,Close the pop-up.
+scroll,desplazarse,Scroll down.,scroll,Scroll down.
+navigate,navegar,Navigate to the home page.,navigate,Navigate to the home page.
+redirect,redirigir,It redirects to the login page.,redirect,It redirects to the login page.
+landing page,página de aterrizaje,Design a landing page.,landing page,Design a landing page.
+analytics,analítica,Check the analytics.,analytics,Check the analytics.
+SEO,posicionamiento en buscadores,Improve the SEO.,SEO,Improve the SEO.
+traffic (web),tráfico web,Our traffic doubled.,traffic (web),Our traffic doubled.
+spam,"spam, correo basura",It went to spam.,spam,It went to spam.
+phishing,suplantación (phishing),Be careful with phishing emails.,phishing,Be careful with phishing emails.
+two-factor authentication,autenticación en dos pasos,Enable two-factor authentication.,two-factor authentication,Enable two-factor authentication.
+firewall,cortafuegos,The firewall blocks it.,firewall,The firewall blocks it.
+VPN,red privada virtual (VPN),Connect to the VPN.,VPN,Connect to the VPN.
+bandwidth (network),ancho de banda,Low bandwidth.,bandwidth (network),Low bandwidth.
+proxy,proxy,Use a proxy.,proxy,Use a proxy.
+IP address,dirección IP,What's your IP address?,IP address,What's your IP address?
+localhost,servidor local,Open localhost:3000.,localhost,Open localhost:3000.
+hackathon,hackatón,We won the hackathon.,hackathon,We won the hackathon.
+side project,proyecto personal,I'm working on a side project.,side project,I'm working on a side project.
+portfolio project,proyecto de portafolio,Add it as a portfolio project.,portfolio project,Add it as a portfolio project.
+soft skills,habilidades blandas,Soft skills are important.,soft skills,Soft skills are important.
+hard skills,habilidades técnicas,List your hard skills.,hard skills,List your hard skills.
+problem-solving,resolución de problemas,Strong problem-solving skills.,problem-solving,Strong problem-solving skills.
+teamwork,trabajo en equipo,Teamwork is key.,teamwork,Teamwork is key.
+self-taught,autodidacta,I'm a self-taught developer.,self-taught,I'm a self-taught developer.
+hands-on,práctico,Hands-on experience.,hands-on,Hands-on experience.
+track record,historial,He has a good track record.,track record,He has a good track record.
+strengths,fortalezas,What are your strengths?,strengths,What are your strengths?
+achievements,logros,Talk about your achievements.,achievements,Talk about your achievements.
+responsibilities,responsabilidades,Describe your responsibilities.,responsibilities,Describe your responsibilities.
+tech stack,stack tecnológico,What's your tech stack?,tech stack,What's your tech stack?
+learning curve,curva de aprendizaje,The learning curve is steep.,learning curve,The learning curve is steep.
+upskill,mejorar habilidades,I want to upskill in AWS.,upskill,I want to upskill in AWS.
+certification,certificación,An AWS certification.,certification,An AWS certification.
+bootcamp,bootcamp,I did a coding bootcamp.,bootcamp,I did a coding bootcamp.
+ship a feature,lanzar una funcionalidad,We shipped the feature on time.,ship a feature,We shipped the feature on time.
+go live,salir en vivo (a producción),The site goes live on Monday.,go live,The site goes live on Monday.
+live (site),"en producción, publicado",The new version is live.,live (site),The new version is live.
+codebase,base de código,The codebase is huge.,codebase,The codebase is huge.
+source code,código fuente,Check the source code.,source code,Check the source code.
+pair programming,programación en pareja,We do pair programming.,pair programming,We do pair programming.
+code freeze,congelamiento de código,There's a code freeze before the release.,code freeze,There's a code freeze before the release.
+feature flag,bandera de funcionalidad,Hide it behind a feature flag.,feature flag,Hide it behind a feature flag.
+A/B test,prueba A/B,Run an A/B test.,A/B test,Run an A/B test.
+user feedback,comentarios de usuarios,We got good user feedback.,user feedback,We got good user feedback.
+user base,base de usuarios,Our user base is growing.,user base,Our user base is growing.
+end user,usuario final,Think about the end user.,end user,Think about the end user.
+customer support,soporte al cliente,Contact customer support.,customer support,Contact customer support.
+help desk,mesa de ayuda,Call the help desk.,help desk,Call the help desk.
+on call,de guardia,I'm on call this weekend.,on call,I'm on call this weekend.
+postmortem,análisis posterior (a un incidente),We wrote a postmortem.,postmortem,We wrote a postmortem.
+escalate,escalar (un problema),Escalate the issue to your manager.,escalate,Escalate the issue to your manager.
+sign-off,aprobación final,We need the client's sign-off.,sign-off,We need the client's sign-off.
+budget cut,recorte de presupuesto,There were budget cuts.,budget cut,There were budget cuts.
+cost-effective,rentable,A cost-effective solution.,cost-effective,A cost-effective solution.
+long-term,a largo plazo,Long-term goals.,long-term,Long-term goals.
+short-term,a corto plazo,A short-term fix.,short-term,A short-term fix.
+in charge of,a cargo de,I'm in charge of the backend.,in charge of,I'm in charge of the backend.
+report to,reportar a (jefe),I report to the CTO.,report to,I report to the CTO.
+work under pressure,trabajar bajo presión,I can work under pressure.,work under pressure,I can work under pressure.
+meet a deadline,cumplir una fecha límite,We met the deadline.,meet a deadline,We met the deadline.
+miss a deadline,incumplir una fecha límite,We missed the deadline.,miss a deadline,We missed the deadline.
+tight deadline,plazo ajustado,We have a tight deadline.,tight deadline,We have a tight deadline.
+workload,carga de trabajo,My workload is heavy.,workload,My workload is heavy.
+overtime pay,pago de horas extra,Do you get overtime pay?,overtime pay,Do you get overtime pay?
+time tracking,registro de horas,Use the time tracking app.,time tracking,Use the time tracking app.
+timesheet,hoja de horas,Fill in your timesheet.,timesheet,Fill in your timesheet.
+shift (work),turno de trabajo,A night shift.,shift (work),A night shift.
+commute,trayecto al trabajo,My commute is one hour.,commute,My commute is one hour.
+coworking space,espacio de coworking,I work from a coworking space.,coworking space,I work from a coworking space.
+open-plan office,oficina abierta,An open-plan office.,open-plan office,An open-plan office.
+dress code,código de vestimenta,There's no dress code.,dress code,There's no dress code.
+company culture,cultura de la empresa,I like the company culture.,company culture,I like the company culture.
+team building,actividades de integración,A team building day.,team building,A team building day.
+networking,hacer contactos,Networking helps your career.,networking,Networking helps your career.
+job market,mercado laboral,The job market is tough.,job market,The job market is tough.
+job hunting,búsqueda de empleo,I'm job hunting.,job hunting,I'm job hunting.
+apply for a job,postularse a un empleo,I applied for three jobs.,apply for a job,I applied for three jobs.
+shortlist,preseleccionar; lista corta,You're on the shortlist.,shortlist,You're on the shortlist.
+background check,verificación de antecedentes,They did a background check.,background check,They did a background check.
+reference check,verificación de referencias,They called my references.,reference check,They called my references.
+notice period,periodo de preaviso,My notice period is 30 days.,notice period,My notice period is 30 days.
+resign,renunciar,She resigned last week.,resign,She resigned last week.
+resignation,renuncia,He handed in his resignation.,resignation,He handed in his resignation.
+fire (job),despedir,He was fired.,fire (job),He was fired.
+get hired,ser contratado,I got hired!,get hired,I got hired!
+entry-level,nivel inicial,An entry-level job.,entry-level,An entry-level job.
+mid-level,nivel intermedio,A mid-level developer.,mid-level,A mid-level developer.
+senior-level,nivel sénior,A senior-level role.,senior-level,A senior-level role.
+job title,cargo,What's your job title?,job title,What's your job title?
+job description,descripción del cargo,Read the job description.,job description,Read the job description.
+key responsibilities,responsabilidades principales,List your key responsibilities.,key responsibilities,List your key responsibilities.
+years of experience,años de experiencia,I have two years of experience.,years of experience,I have two years of experience.
+fluent,fluido (idioma),I want to be fluent in English.,fluent,I want to be fluent in English.
+proficient,competente,Proficient in Python.,proficient,Proficient in Python.
+familiar with,familiarizado con,I'm familiar with Docker.,familiar with,I'm familiar with Docker.
+skilled in,hábil en,Skilled in React.,skilled in,Skilled in React.
+eager to learn,con ganas de aprender,I'm eager to learn.,eager to learn,I'm eager to learn.
+fast learner,aprende rápido,I'm a fast learner.,fast learner,I'm a fast learner.
+detail-oriented,detallista,I'm detail-oriented.,detail-oriented,I'm detail-oriented.
+team player,buen compañero de equipo,I'm a team player.,team player,I'm a team player.
+deadline-driven,orientado a plazos,A deadline-driven environment.,deadline-driven,A deadline-driven environment.
+user-friendly,fácil de usar,A user-friendly app.,user-friendly,A user-friendly app.
+cutting-edge,de vanguardia,Cutting-edge technology.,cutting-edge,Cutting-edge technology.
+up to date,actualizado,Keep your skills up to date.,up to date,Keep your skills up to date.
+out of date,desactualizado,The docs are out of date.,out of date,The docs are out of date.
+state of the art,lo más avanzado,A state-of-the-art system.,state of the art,A state-of-the-art system.
+under the hood,por dentro (cómo funciona),What happens under the hood?,under the hood,What happens under the hood?
+from scratch,desde cero,I built it from scratch.,from scratch,I built it from scratch.
+on the fly,sobre la marcha,We changed it on the fly.,on the fly,We changed it on the fly.
