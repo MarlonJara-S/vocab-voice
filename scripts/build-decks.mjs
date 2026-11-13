@@ -1,9 +1,10 @@
 // Converts the CSV decks in /data into JSON files served from /public/decks.
-// Run with `npm run decks` (it also runs automatically before `npm run build`).
+// Run with `npm run decks` (it also runs automatically before `dev` and `build`).
 import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Papa from 'papaparse';
+import { buildDeck } from './deck-utils.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = join(root, 'data');
@@ -22,8 +23,6 @@ const NAMES = {
   '09': 'Irregular verbs',
 };
 
-const slug = (s) => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-
 const index = [];
 for (const file of readdirSync(dataDir).filter((f) => f.endsWith('.csv')).sort()) {
   const num = file.slice(0, 2);
@@ -33,24 +32,7 @@ for (const file of readdirSync(dataDir).filter((f) => f.endsWith('.csv')).sort()
     skipEmptyLines: true,
   });
 
-  const cards = data.map((row) => {
-    if ('Verb' in row) {
-      return {
-        id: `${deckId}:${slug(row.Verb)}`,
-        front: row.Verb.trim(),
-        meaning: row.Meaning.trim(),
-        forms: row.Forms.trim(),
-        other: row['Other forms']?.trim() || undefined,
-        examples: [row['Past example'], row['Participle example']].map((s) => s?.trim()).filter(Boolean),
-      };
-    }
-    return {
-      id: `${deckId}:${slug(row.Word)}`,
-      front: row.Word.trim(),
-      meaning: row.Meaning.trim(),
-      examples: [row.Example?.trim()].filter(Boolean),
-    };
-  });
+  const cards = buildDeck(deckId, data);
 
   writeFileSync(join(outDir, `${deckId}.json`), JSON.stringify(cards));
   index.push({ id: deckId, name: NAMES[num] ?? deckId, count: cards.length, builtIn: true });

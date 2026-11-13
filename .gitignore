@@ -1,5 +1,20 @@
+# Logs
+*.log
+npm-debug.log*
+
 node_modules
 dist
+dist-ssr
+dev-dist
+coverage
+*.local
 .env*
-.DS_Store
+
+# Generated from data/*.csv by `npm run decks`
 public/decks/
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
