@@ -38,6 +38,10 @@ Tab bar: Today, Decks, Stats, Settings. Hidden during a study session (focus mod
 - New cards per day: per deck limit (default 20), counted from review logs since the day start.
 - **Day starts at 4:00 AM local time** (so a late-night session counts for the same day).
 - Queue order: due reviews first (oldest due first), then new cards in file order, interleaving learning cards as they come due.
+- Details decided while building the scheduler (2026-11-13, see `src/features/study/`):
+  - Review cards are due for the whole study day (until 4 AM tomorrow). Learning cards are due when their step ends, with a 20 min learn-ahead.
+  - Unlocked reverse cards are new cards too: they share the deck's daily new limit, alternating 1:1 with new words so neither starves.
+  - Siblings are buried: if a word's EN→ES card is in today's session, its ES→EN card waits for another day (it would give the answer away).
 
 ## Data model (Dexie)
 
