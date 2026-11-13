@@ -1,9 +1,9 @@
-import { useDeckIndex } from "../hooks/useDeckIndex"
+import { useDecks } from "../hooks/useDecks"
 import { DeckList } from "./DeckList"
 
-/** "DECKS" header + list, with loading and error states. */
+/** "DECKS" header + list (built-in and custom decks), with loading and error states. */
 export function DecksSection() {
-  const state = useDeckIndex()
+  const state = useDecks()
   const total =
     state.status === "ready"
       ? state.decks.reduce((sum, deck) => sum + deck.count, 0)
