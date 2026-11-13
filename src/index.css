@@ -1,0 +1,111 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/inter";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-heading: var(--font-sans);
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+
+  /* shadcn tokens */
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+
+  /* Vocab Voice extra tokens (docs/DESIGN.md) */
+  --color-sunken: var(--surface-sunken);
+  --color-tab-bar: var(--tab-bar);
+  --color-dashed: var(--divider-dashed);
+  --color-subtle: var(--text-secondary);
+  --color-disabled: var(--disabled);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+
+  /* cards 10px (rounded-lg), tiles/inputs 8px (rounded-md), chips 6px (rounded-sm) */
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+}
+
+/*
+ * Single dark theme (see docs/DESIGN.md → Tokens).
+ * Note: shadcn's "accent" is its hover/selected background. Our amber
+ * brand accent is "primary" (bg-primary, text-primary).
+ */
+:root {
+  --background: #1e1e21;
+  --foreground: #ececee;
+  --card: #29292d;
+  --card-foreground: #ececee;
+  --popover: #29292d;
+  --popover-foreground: #ececee;
+  --primary: #e5a54b;
+  --primary-foreground: #1e1e21;
+  --secondary: #29292d;
+  --secondary-foreground: #ececee;
+  --muted: #36363b;
+  --muted-foreground: #8e8e93;
+  --accent: #36363b;
+  --accent-foreground: #ececee;
+  --destructive: #e07a7a;
+  --border: #36363b;
+  --input: #36363b;
+  --ring: #e5a54b;
+  --radius: 10px;
+
+  --surface-sunken: #161618;
+  --tab-bar: #26262a;
+  --divider-dashed: #3e3e44;
+  --text-secondary: #c9c9ce;
+  --disabled: #5e5e63;
+  --success: #7fc79a;
+  --danger: #e07a7a;
+
+  color-scheme: dark;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-size: 15px;
+    line-height: 1.45;
+    overscroll-behavior: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
